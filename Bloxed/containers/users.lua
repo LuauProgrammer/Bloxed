@@ -1,8 +1,8 @@
 
---[[]    
+--[[    
     LuauProgrammer
     users.lua
-    Lmao my dog hungry
+    API for ROBLOX's user API
 ]]
 
 --//Require any modules and define variables

@@ -1,1 +1,1 @@
-print(require('./Bloxed/init.lua').users.GetUserByName("Koyonoko"))
+print(require('./Bloxed/init.lua').groups.HandleJoinRequest("127378116","7408442"))
