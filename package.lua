@@ -10,6 +10,7 @@
       'creationix/coro-http',
       'luvit/secure-socket',
       'luvit/json',
+      'luvit/http-codec'
     },
     files = {
       "**.lua"
