@@ -1,1 +1,0 @@
-print(require('./Bloxed/init.lua').groups.HandleJoinRequest("127378116","7408442"))
