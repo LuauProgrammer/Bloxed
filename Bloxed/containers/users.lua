@@ -16,9 +16,7 @@ local encode = require('json').encode
 module.GetUserByID = function(userID)
     local res, body = http.request("GET", "https://users.roblox.com/v1/users/"..userID)
     if res.code ~= 200 then
-        if res.reason == "Not Found" then
             return nil
-        end
     end
     return decode(body)
 end
