@@ -4,13 +4,18 @@
     description = "ROBLOX API Wrapper for the Luvit Runtime Enviroment.",
     tags = { "roblox", "api", "wrapper" },
     license = "MIT",
-    author = { name = "LuauProgrammer", email = "aydentaylorl@gmail.com" },
+    author = { name = "LuauProgrammer" },
     homepage = "https://github.com/LuauProgrammer/Bloxed",
     dependencies = {
-      'creationix/coro-http',
-      'luvit/secure-socket',
-      'luvit/json',
-      'luvit/http-codec'
+      'creationix/coro-channel', 
+      'creationix/coro-http',    
+      'creationix/coro-net',      
+      'creationix/coro-wrapper',  
+      'creationix/pathjoin',      
+      'luvit/http-codec',         
+      'luvit/json',              
+      'luvit/resource',          
+      'luvit/secure-socket'      
     },
     files = {
       "**.lua"
