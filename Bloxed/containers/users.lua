@@ -27,10 +27,7 @@ module.GetUserByName = function(name)
     local params = '{ \"usernames\": [ '..encode(name)..' ], \"excludeBannedUsers\": true}'
     local res, body = http.request("POST", "https://users.roblox.com/v1/usernames/users/", {{"Content-Type","text/json"}}, params)
     if res.code ~= 200 then
-        print(res.code)
-        if res.reason == "Not Found" then
-            return nil
-        end
+        return nil
     end
     local data
     for i,v in pairs(decode(body)) do --Legit a fucking terrible idea
