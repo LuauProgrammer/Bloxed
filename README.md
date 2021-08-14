@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/LuauProgrammer/Bloxed"><img src="https://cdn.discordapp.com/attachments/830220362326999041/876138220428095510/bloxed2.png" alt="Bloxed" height="300" width="400" /></a>
+<a href="https://github.com/LuauProgrammer/Bloxed"><img src="https://cdn.discordapp.com/attachments/830220362326999041/876138220428095510/bloxed2.png" alt="Bloxed" height="300" width="600" /></a>
 </p>
 
 
