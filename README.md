@@ -11,4 +11,4 @@ Bloxed is a simple, easy to use and feature rich API wrapper for ROBLOX API. All
 
 ## Do I need anything to run this?
 
-Yes, you need Luvit to use this wrapper.
+Yes, you need Luvit to use this wrapper. That's easy to install. If you want to install Luvit, go to the Luvit homepage.
