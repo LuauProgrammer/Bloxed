@@ -1,4 +1,3 @@
-
 --[[   
     LuauProgrammer
     init.lua
@@ -6,8 +5,8 @@
 ]]
 
 return {
-    users = require("./containers/users"),
-    groups = require("./containers/groups"),
-    authentication = require("./containers/authentication"),
-    games = require("./containers/games"),
+    require("./containers/users"),
+    require("./containers/groups"),
+    require("./containers/authentication"),
+    require("./containers/games"),
 }
